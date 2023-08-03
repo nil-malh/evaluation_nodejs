@@ -1,0 +1,223 @@
+[
+  {
+    "title": "Fjallraven - Sac à dos pliable No. 1, pour ordinateurs portables jusqu'à 15 pouces",
+    "price": 109.95,
+    "description": "Votre sac parfait pour un usage quotidien et des promenades en forêt. Rangez votre ordinateur portable (jusqu'à 15 pouces) dans la poche rembourrée, votre quotidien...",
+    "category": "Vêtements pour hommes",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "title": "T-shirts casual premium pour hommes, coupe ajustée",
+    "price": 22.3,
+    "description": "Style ajusté, manches longues raglan contrastées, patte à trois boutons henley, tissu léger et doux pour une sensation de fraîcheur et de confort. Et des chemises cousues solides avec un col rond pour plus de durabilité et un excellent ajustement pour une tenue décontractée...",
+    "category": "Vêtements pour hommes",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "title": "Veste en coton pour hommes",
+    "price": 55.99,
+    "description": "Superbes vestes d'extérieur pour le printemps/automne/hiver, adaptées à de nombreuses occasions telles que le travail, la randonnée, le camping, l'escalade en montagne, le cyclisme, les voyages ou autres activités de plein air. Bon choix de cadeau pour vous ou un membre de votre famille. Un amour chaleureux pour le père, le mari ou le fils en cette période de Thanksgiving ou de Noël...",
+    "category": "Vêtements pour hommes",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "title": "Coupe slim décontractée pour hommes",
+    "price": 15.99,
+    "description": "La couleur peut être légèrement différente entre l'écran et la réalité. / Veuillez noter que les morphologies varient d'une personne à l'autre, donc les informations détaillées sur les tailles doivent être consultées ci-dessous dans la description du produit...",
+    "category": "Vêtements pour hommes",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "title": "Bracelet chaîne Dragon Naga en or et argent pour femmes de John Hardy Legends",
+    "price": 695,
+    "description": "De notre collection Legends, le Naga s'inspire du dragon d'eau mythique qui protège la perle de l'océan. Portez-le tourné vers l'intérieur pour être béni d'amour et d'abondance, ou vers l'extérieur pour une protection...",
+    "category": "Bijoux",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "title": "Micropave Petite en Or Massif",
+    "price": 168,
+    "description": "Satisfaction garantie. Retour ou échange de toute commande dans les 30 jours. Conçu et vendu par Hafeez Center aux États-Unis. Satisfaction garantie. Retour ou échange de toute commande dans les 30 jours.",
+    "category": "Bijoux",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  },
+  {
+    "title": "Bague de promesse en diamant solitaire classique pour femme",
+    "price": 9.99,
+    "description": "Bague de promesse de fiançailles classique créée pour elle. Des cadeaux pour gâter encore plus votre amour pour les fiançailles, le mariage, l'anniversaire, la Saint-Valentin...",
+    "category": "Bijoux",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 3,
+      "count": 400
+    }
+  },
+  {
+    "title": "Boucles d'oreilles tunnel plaquées or rose en acier inoxydable double",
+    "price": 10.99,
+    "description": "Boucles d'oreilles tunnel en acier inoxydable plaqué or rose. Fabriquées en acier inoxydable 316L.",
+    "category": "Bijoux",
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 1.9,
+      "count": 100
+    }
+  },
+  {
+    "title": "Disque dur externe portable WD Elements 2 To - USB 3.0",
+    "price": 64,
+    "description": "Compatibilité USB 3.0 et USB 2.0. Transferts de données rapides. Améliore les performances de votre PC. Grande capacité. Compatibilité formatée NTFS pour Windows 10, Windows 8.1, Windows 7. Un reformatage peut être nécessaire pour d'autres systèmes d'exploitation. La compatibilité peut varier en fonction de la configuration matérielle et du système d'exploitation de l'utilisateur...",
+    "category": "Électronique",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
+  },
+  {
+    "title": "SSD interne SanDisk PLUS 1 To - SATA III 6 Gb/s",
+    "price": 109,
+    "description": "Mise à niveau facile pour un démarrage plus rapide, une mise hors tension plus rapide, un chargement d'applications et une réponse plus rapides (par rapport à un disque dur SATA 2,5” à 5400 RPM ; basé sur des spécifications publiées et des tests internes de référence utilisant des scores PCMark vantage). Améliore les performances en écriture de rafales, ce qui en fait idéal pour les charges de travail PC typiques. L'équilibre parfait entre performances et fiabilité. Vitesses de lecture/écriture allant jusqu'à 535 Mo/s / 450 Mo/s (basées sur des tests internes ; les performances peuvent varier en fonction de la capacité du disque, de l'appareil hôte, du système d'exploitation et de l'application)...",
+    "category": "Électronique",
+    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
+  },
+  {
+    "title": "SSD 3D NAND Silicon Power 256 Go - SATA III avec cache SLC",
+    "price": 109,
+    "description": "Les puces 3D NAND sont utilisées pour des vitesses de transfert élevées. Des vitesses de transfert remarquables qui permettent un démarrage plus rapide et une amélioration globale des performances du système. La technologie avancée de cache SLC permet une amélioration des performances et une durée de vie plus longue. Design mince de 7 mm adapté aux Ultrabooks et aux ordinateurs portables ultra-minces. Prend en charge la commande TRIM, la technologie de collecte des ordures, le RAID et le ECC (Correction d'erreurs et de pannes) pour offrir des performances optimisées et une fiabilité accrue...",
+    "category": "Électronique",
+    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
+  },
+  {
+    "title": "Disque dur externe portable WD Gaming 4 To - Compatible avec PlayStation 4",
+    "price": 114,
+    "description": "Élargissez votre expérience de jeu PS4, jouez n'importe où. Installation rapide et facile. Design élégant avec une grande capacité. Garantie limitée du fabricant de 3 ans...",
+    "category": "Électronique",
+    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "title": "Acer SB220Q bi - Écran IPS Full HD de 21,5 pouces (1920 x 1080) - Ultra-mince",
+    "price": 599,
+    "description": "Écran IPS Full HD de 21,5 pouces (1920 x 1080) avec technologie Radeon FreeSync. Pas de compatibilité pour le montage VESA. Taux de rafraîchissement : 75 Hz - Utilisation du port HDMI. Design sans cadre | ultra-fin | Temps de réponse de 4 ms | Panneau IPS. Rapport d'aspect - 16:9. Couleurs prises en charge - 16,7 millions de couleurs. Luminosité - 250 cd/m². Angle d'inclinaison -5 degré à 15 degré. Angle de vision horizontal : 178 degré. Angle de vision vertical : 178 degré. 75 hertz...",
+    "category": "Électronique",
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "title": "Moniteur de jeu incurvé Samsung CHG90 de 49 pouces avec taux de rafraîchissement de 144 Hz (LC49HG90DMNXZA) - Super écran ultra-large QLED",
+    "price": 999.99,
+    "description": "MONITEUR DE JEU SUPER ULTRA-LARGE 49 POUCES 32:9 CURVED avec double écran de 27 pouces côte à côte. TECHNOLOGIE QUANTUM DOT (QLED), prise en charge HDR et étalonnage en usine offrant des couleurs et un contraste incroyablement réalistes et précis. TAUX DE RAFRAÎCHISSEMENT ÉLEVÉ DE 144 HZ et temps de réponse ultra-rapide de 1 ms travaillant pour éliminer le flou de mouvement, les images fantômes et réduire la latence d'entrée...",
+    "category": "Électronique",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "title": "Veste de snowboard 3 en 1 pour femmes BIYLACLESEN - Manteaux d'hiver",
+    "price": 56.99,
+    "description": "Note: Les vestes sont de taille standard aux États-Unis. Veuillez choisir la taille comme vous avez l'habitude de le porter. Matériau : 100% polyester ; Doublure détachable en tissu polaire chaud. Veste doublure à col montant, vous garde au chaud par temps froid. Poches zippées : 2 poches zippées pour les mains, 2 poches zippées sur la poitrine (suffisamment grandes pour ranger des cartes ou des clés) et 1 poche cachée à l'intérieur. Les poches zippées pour les mains et la poche cachée gardent vos affaires en sécurité. Conception humanisée : capuche ajustable et détachable, poignets réglables pour empêcher le vent et l'eau, pour un ajustement confortable. Conception détachable 3 en 1 pour plus de commodité, vous pouvez séparer la veste et la doublure selon vos besoins, ou les porter ensemble. Convient à différentes saisons et vous aide à vous adapter à différents climats...",
+    "category": "Vêtements pour femmes",
+    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "title": "Veste de motard en similicuir avec capuche amovible Lock and Love pour femmes",
+    "price": 29.95,
+    "description": "100% POLYURÉTHANE (extérieur) 100% POLYESTER (doublure) 75% POLYESTER 25% COTON (SWEATER), Matériau en similicuir pour un style et un confort. 2 poches à l'avant, Veste en similicuir avec capuche style denim 2 en 1, Détails de boutons à la taille / Coutures détaillées sur les côtés, LAVAGE À LA MAIN UNIQUEMENT / NE PAS BLANCHIR / SÉCHAGE À L'AIR / NE PAS REPASSER",
+    "category": "Vêtements pour femmes",
+    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "title": "Imperméable pour femmes avec rayures coupe-vent pour l'alpinisme",
+    "price": 39.99,
+    "description": "Léger, parfait pour les voyages ou les tenues décontractées. Manches longues avec capuche, taille ajustable par cordon de serrage. Fermeture avant boutonnée et zippée, entièrement doublée de rayures. L'imperméable a 2 poches latérales d'une bonne taille pour contenir toutes sortes de choses, il couvre les hanches, et la capuche est généreuse mais sans en faire trop. Capuche doublée de coton attachée avec cordon de serrage réglable pour un look véritablement stylé.",
+    "category": "Vêtements pour femmes",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 3.8,
+      "count": 679
+    }
+  },
+  {
+    "title": "T-shirt à col bateau MBJ pour femmes, manches courtes et unies",
+    "price": 9.85,
+    "description": "95% RAYON 5% SPANDEX, Fabriqué aux États-Unis ou importé, Ne pas blanchir, Tissu léger avec une grande élasticité pour plus de confort, Côtelé aux manches et au col / Double couture sur l'ourlet inférieur",
+    "category": "Vêtements pour femmes",
+    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "title": "T-shirt d'entraînement pour femmes Opna, manches courtes et anti-transpiration",
+    "price": 7.95,
+    "description": "100% Polyester, Lavage en machine, 100% polyester cationique interlock, Lavable en machine et pré-rétréci pour un ajustement optimal, Tissu léger, spacieux et hautement respirant avec tissu qui évacue l'humidité, ce qui aide à garder l'humidité loin, Tissu léger et doux avec col en V confortable et coupe plus ajustée, offrant une silhouette élégante et un confort supplémentaire",
+    "category": "Vêtements pour femmes",
+    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 290
+    }
+  },
+  {
+    "title": "Robe de bal longue KOH KOH pour femmes",
+    "price": 39.5,
+    "description": "100% Polyester, Fermeture à glissière, Lavage en machine, Robe de bal élégante et flatteuse, robe de soirée longue, Fermeture éclair dans le dos, Coupe ajustée, évasée vers le bas, ceinture ajustable pour un look plus flatteur, Disponible en différentes tailles et couleurs",
+    "category": "Vêtements pour femmes",
+    "image": "https://fakestoreapi.com/img/81pWcAEYvXL._AC_UY879_.jpg",
+    "rating": {
+      "rate": 3.6,
+      "count": 123
+    }
+  }
+]
+
