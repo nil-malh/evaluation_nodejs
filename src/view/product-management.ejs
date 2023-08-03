@@ -14,33 +14,22 @@
         <!-- Add Product Form -->
         <div class="position-absolute top-0 end-0 mt-2">
             <a href="/admin/auth/signout" class="btn btn-outline-dark">
-                ME DECONNECTER
+                Log out
             </a>
         </div>
-        <form action="/add-product" method="POST">
-            <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" class="form-control" id="title" name="title" required>
-            </div>
-            <div class="form-group">
-                <label for="price">Price</label>
-                <input type="number" class="form-control" id="price" name="price" required>
-            </div>
-            <!-- Add more fields as needed -->
-            <button type="submit" class="btn btn-primary">Add Product</button>
-        </form>
-
-        <hr>
+        
 
         <!-- Product List -->
         <ul class="list-group">
+            <a href="/admin/manage/new" class="btn btn-primary">Add Product</a>
+
             <% products.forEach(product => { %>
-                <li class="list-group-item">
+            <li class="list-group-item" id="<%= product._id %>">
                     <div class="d-flex justify-content-between align-items-center">
                         <span><%= product.title %></span>
                         <div>
-                            <a href="/edit-product/<%= product._id %>" class="btn btn-sm btn-info mr-2">Edit</a>
-                            <a href="/delete-product/<%= product._id %>" class="btn btn-sm btn-danger">Delete</a>
+                            <a href="/admin/manage/<%= product._id %>/edit" class="btn btn-sm btn-info mr-2">Edit</a>
+                            <button onclick="deleteProduct('<%= product._id %>')" class="btn btn-sm btn-danger">Delete</a>
                         </div>
                     </div>
                 </li>
@@ -49,5 +38,23 @@
     </div>
 
     <!-- Include Bootstrap JS and any other necessary scripts -->
+    <script>
+        function deleteProduct(id)
+        {
+            fetch(`/admin/manage/${id}`, { method: 'DELETE' })
+                    .then(res => res.json())
+                    // res = { nDeleted: number, success: boolean }
+                    .then(res => {
+                        if(res.success) {
+                            const productElement = document.getElementById(id);
+                            if (productElement) {
+                                productElement.remove();
+                            }
+                        }
+                    })
+                    .catch(console.error)
+        }
+
+    </script>
 </body>
 </html>

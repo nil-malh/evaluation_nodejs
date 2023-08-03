@@ -15,7 +15,6 @@ class ProductManagementController {
     initRoutes (): express.Router {
         const router = express.Router()
         router.get('/', this.showAll.bind(this))
-        router.get('/page',this.showOne.bind(this))
         router.get('/new', this.showNewForm.bind(this))
         router.post('/new', this.handleNewForm.bind(this))
         router.get('/:id/edit', this.showEditForm.bind(this))
@@ -50,37 +49,12 @@ class ProductManagementController {
 
         res.render('product-management', { products});
     }
-    private async showOne(req: Request, res: Response): Promise<void> {
-        const productId = req.query['product-id']; // Assuming the query parameter is 'product-id'
-        
-        if (!productId) {
-            // Handle the case when the product-id is not provided
-            res.status(400).send('Product ID is required.');
-            return;
-        }
-    
-        try {
-            const product: HydratedDocument<IProduct> | null = await ProductModel.findById(productId);
-            
-            if (!product) {
-                // Handle the case when the product is not found
-                res.status(404).send('Product not found.');
-                return;
-            }
-    
-            res.render('product-page', { product }); // 'single_product' is the name of your EJS template
-        } catch (error) {
-            // Handle any errors that might occur during the process
-            console.error('Error retrieving product:', error);
-            res.status(500).send('An error occurred while retrieving the product.');
-        }
-    }
+ 
     private async showNewForm (req: Request, res: Response): Promise<void> {
-        res.render('task-form', {
-            title: 'AJOUTER UN Produit',
+        res.render('product-form', {
+            title: 'Create a new product',
             action: req.baseUrl + req.path,
-            btnLabel: 'AJOUTER',
-            taskToUpdate: undefined
+            product: undefined
         })
     }
 
@@ -93,14 +67,13 @@ class ProductManagementController {
 
     private async showEditForm (req: Request, res: Response): Promise<void> {
         const id = req.params.id
-        const task = await ProductModel.findById(id)
+        const product = await ProductModel.findById(id)
 
-        if (task) {
-            res.render('task-form', {
-                title: 'MODIFIER UNE TÂCHE',
+        if (product) {
+            res.render('product-form', {
+                title: 'Edit a product',
                 action: req.baseUrl + req.path,
-                btnLabel: 'MODIFIER',
-                taskToUpdate: task
+                product: product
             })
         } else {
             res.redirect('/')

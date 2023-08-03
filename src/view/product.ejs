@@ -13,6 +13,11 @@
     <div class="position-relative mt-3 mb-5">
         <h1 class="text-center text-uppercase">The Damn Products Inc.</h1>
         <div class="position-absolute top-0 end-0 mt-2">
+            <% if (req.session.userId) { %>
+                <a href="/admin/auth/signout" class="btn btn-danger">Log Out</a>
+            <% } else { %>
+                <a href="/admin/auth/signin" class="btn btn-primary">Sign In</a>
+            <% } %>
         </div>
     </div>
 
@@ -40,13 +45,17 @@
             <div class="col-md-4 mb-3 d-flex align-items-end">
                 <button type="submit" class="btn btn-primary">Apply Filters</button>
             </div>
+            <% if (req.session.userId) { %>
+                <a href="/admin/manage" class="btn btn-primary">Go to Admin Panel</a>
+                <% } %>
+
         </div>
     </form>
         <div class="row">
             <% for(const product of products) { %>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="<%= product.image %>" class="card-img-top" alt="Product Image">
+                        <img src="<%= product.image %>" style="object-fit: cover; max-width: fit-content; max-height: fit-content;" class="card-img-top" alt="Product Image">
                         <div class="card-body">
                             <h5 class="card-title"><%= product.title %></h5>
                             <p class="card-text"><strong>Price:</strong> $<%= product.price %></p>

@@ -20,32 +20,36 @@
 
             <div class="card-content my-3">
 
-                <form method="POST" action="<%= action %>">
-
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Nom</label>
-                        <input
-                                type="text"
-                                class="form-control"
-                                name="name"
-                                id="name"
-                                placeholder="Nom de la tâche.."
-                        <% if(taskToUpdate) { %> value="<%= taskToUpdate.name %>"
-                                <% } %>
-                        >
+                <form action="<%= action %>" method="POST">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" class="form-control" id="title" name="title" required>
                     </div>
-
-                    <div class="mb-3">
-                        <label for="description" class="form-label">Description</label>
-                        <textarea class="form-control" name="description" id="description"
-                                  placeholder="Description de la tâche.."
-                        ><% if(taskToUpdate) { %><%= taskToUpdate.description %><% } %></textarea>
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input type="number" class="form-control" id="price" name="price" required>
                     </div>
-
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <button type="submit" class="btn btn-dark"><%= btnLabel %></button>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
                     </div>
-
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <input type="text" class="form-control" id="category" name="category" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Image URL</label>
+                        <input type="text" class="form-control" id="image" name="image" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ratingRate">Rating Rate</label>
+                        <input type="number" class="form-control" id="ratingRate" name="ratingRate" required step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="ratingCount">Rating Count</label>
+                        <input type="number" class="form-control" id="ratingCount" name="ratingCount" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Product</button>
                 </form>
 
             </div>

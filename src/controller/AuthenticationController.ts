@@ -95,7 +95,7 @@ class AuthenticationController {
 
     private async signOut (req: Request, res: Response): Promise<void> {
         req.session.userId = undefined
-        res.redirect('/admin/auth/signin')
+        res.redirect('/products')
     }
 
     private hashPassword (plainPassword: string): string {
